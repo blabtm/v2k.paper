@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 10 990 460" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .adaptive-text { fill: #1e1e1e; font-family: "Inter", -apple-system, sans-serif; font-weight: 500; }
+      .adaptive-stroke { stroke: #1e1e1e; fill: none; }
+      .adaptive-marker { fill: #1e1e1e; }
+      @media (prefers-color-scheme: dark) {
+        .adaptive-text { fill: #ffffff; }
+        .adaptive-stroke { stroke: #ffffff; }
+        .adaptive-marker { fill: #ffffff; }
+      }
+    </style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" class="adaptive-marker" />
+    </marker>
+  </defs>
+  <rect x="60" y="90" width="240" height="240" rx="8" ry="8" fill="none" stroke-width="2" class="adaptive-stroke"  />
+  <text x="75" font-size="16" text-anchor="start" class="adaptive-text">
+    <tspan x="75" y="110.0" dominant-baseline="central">Репозиторий (Git)</tspan>
+  </text>
+  <rect x="90" y="130" width="180" height="65" rx="8" ry="8" fill="#ffc9c9" stroke-width="2" class="adaptive-stroke"  />
+  <text x="180.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="180.0" y="152.5" dominant-baseline="central">Предметная</tspan>
+    <tspan x="180.0" y="172.5" dominant-baseline="central">модель</tspan>
+  </text>
+  <rect x="90" y="230" width="180" height="65" rx="8" ry="8" fill="#ffec99" stroke-width="2" class="adaptive-stroke"  />
+  <text x="180.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="180.0" y="262.5" dominant-baseline="central">Состояние</tspan>
+  </text>
+  <rect x="370" y="50" width="390" height="380" rx="8" ry="8" fill="none" stroke-width="2" class="adaptive-stroke"  />
+  <text x="385" font-size="16" text-anchor="start" class="adaptive-text">
+    <tspan x="385" y="70.0" dominant-baseline="central">Платформа</tspan>
+  </text>
+  <rect x="395" y="190" width="120" height="80" rx="8" ry="8" fill="#a5d8ff" stroke-width="2" class="adaptive-stroke"  />
+  <text x="455.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="455.0" y="230.0" dominant-baseline="central">Шлюз</tspan>
+  </text>
+  <rect x="550" y="90" width="180" height="315" rx="8" ry="8" fill="none" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="3,3" />
+  <rect x="580" y="110" width="120" height="55" rx="8" ry="8" fill="#d0bfff" stroke-width="2" class="adaptive-stroke"  />
+  <text x="640.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="640.0" y="137.5" dominant-baseline="central">Оркестратор</tspan>
+  </text>
+  <rect x="580" y="180" width="120" height="55" rx="8" ry="8" fill="#b2f2bb" stroke-width="2" class="adaptive-stroke"  />
+  <text x="640.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="640.0" y="207.5" dominant-baseline="central">Супервизор</tspan>
+  </text>
+  <rect x="580" y="250" width="120" height="55" rx="8" ry="8" fill="#ffd8a8" stroke-width="2" class="adaptive-stroke"  />
+  <text x="640.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="640.0" y="277.5" dominant-baseline="central">Шина</tspan>
+  </text>
+  <rect x="580" y="320" width="120" height="55" rx="8" ry="8" fill="#f1f3f5" stroke-width="2" class="adaptive-stroke"  />
+  <text x="640.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="640.0" y="347.5" dominant-baseline="central">...</tspan>
+  </text>
+  <rect x="850" y="110" width="120" height="55" rx="8" ry="8" fill="#ffd8a8" stroke-width="2" class="adaptive-stroke"  />
+  <text x="910.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="910.0" y="137.5" dominant-baseline="central">HPC A</tspan>
+  </text>
+  <rect x="850" y="180" width="120" height="55" rx="8" ry="8" fill="#ffd8a8" stroke-width="2" class="adaptive-stroke"  />
+  <text x="910.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="910.0" y="207.5" dominant-baseline="central">HPC B</tspan>
+  </text>
+  <rect x="850" y="250" width="120" height="55" rx="8" ry="8" fill="#b2f2bb" stroke-width="2" class="adaptive-stroke"  />
+  <text x="910.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="910.0" y="277.5" dominant-baseline="central">PLC</tspan>
+  </text>
+  <path d="M 277.7425800543062 260.4869291858804 L 387.2574199456938 232.0130708141196" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 387.9607568187425 226.19880868212093 L 277.0392431812575 166.30119131787907" stroke-width="2" class="adaptive-stroke"  marker-end="url(#arrowhead)" />
+  <path d="M 519.5995641337032 223.45446642511467 L 575.4004358662968 144.04553357488533" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 522.5598885875221 227.38311548893466 L 572.4401114124779 210.11688451106534" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 521.4591289780632 234.72013271473847 L 573.5408710219368 272.7798672852615" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 518.8724910813381 237.000272339342 L 576.1275089186619 340.499727660658" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 708 137.5 L 842 137.5" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 708 207.5 L 842 207.5" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <path d="M 708 277.5 L 842 277.5" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+</svg>

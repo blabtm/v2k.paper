@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 60 820 725" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .adaptive-text { fill: #1e1e1e; font-family: "Inter", -apple-system, sans-serif; font-weight: 500; }
+      .adaptive-stroke { stroke: #1e1e1e; fill: none; }
+      .adaptive-marker { fill: #1e1e1e; }
+      @media (prefers-color-scheme: dark) {
+        .adaptive-text { fill: #ffffff; }
+        .adaptive-stroke { stroke: #ffffff; }
+        .adaptive-marker { fill: #ffffff; }
+      }
+    </style>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" class="adaptive-marker" />
+    </marker>
+    <marker id="arrowhead-start" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 10 1.5 L 1 5 L 10 8.5 z" class="adaptive-marker" />
+    </marker>
+  </defs>
+  <rect x="310" y="100" width="520" height="180" rx="8" ry="8" fill="none" stroke-width="2" class="adaptive-stroke"  />
+  <text x="325" font-size="16" text-anchor="start" class="adaptive-text">
+    <tspan x="325" y="120.0" dominant-baseline="central">Репозиторий (Git)</tspan>
+  </text>
+  <rect x="360" y="160" width="180" height="75" rx="8" ry="8" fill="#ffc9c9" stroke-width="2" class="adaptive-stroke"  />
+  <text x="450.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="450.0" y="187.5" dominant-baseline="central">Предметная</tspan>
+    <tspan x="450.0" y="207.5" dominant-baseline="central">модель</tspan>
+  </text>
+  <rect x="600" y="160" width="180" height="75" rx="8" ry="8" fill="#ffec99" stroke-width="2" class="adaptive-stroke"  />
+  <text x="690.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="690.0" y="187.5" dominant-baseline="central">Административное</tspan>
+    <tspan x="690.0" y="207.5" dominant-baseline="central">состояние</tspan>
+  </text>
+  <rect x="470" y="360" width="200" height="80" rx="8" ry="8" fill="#a5d8ff" stroke-width="2" class="adaptive-stroke"  />
+  <text x="570.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="570.0" y="400.0" dominant-baseline="central">Платформа</tspan>
+  </text>
+  <path d="M 685.3255621932394 241.49227473161196 L 604.6744378067606 353.50772526838807" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="660.0" font-size="14" text-anchor="start" class="adaptive-text">
+    <tspan x="660.0" y="297.5" dominant-baseline="central">Синхронизация</tspan>
+  </text>
+  <path d="M 535.3255621932394 353.50772526838807 L 454.6744378067606 241.49227473161196" stroke-width="2" class="adaptive-stroke"  marker-end="url(#arrowhead)" />
+  <text x="480.0" font-size="14" text-anchor="end" class="adaptive-text">
+    <tspan x="480.0" y="297.5" dominant-baseline="central">Обеспечивает</tspan>
+  </text>
+  <rect x="200" y="560" width="160" height="75" rx="8" ry="8" fill="#d0bfff" stroke-width="2" class="adaptive-stroke"  />
+  <text x="280.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="280.0" y="587.5" dominant-baseline="central">Портал</tspan>
+    <tspan x="280.0" y="607.5" dominant-baseline="central">оператора</tspan>
+  </text>
+  <rect x="780" y="560" width="160" height="75" rx="8" ry="8" fill="#ffec99" stroke-width="2" class="adaptive-stroke"  />
+  <text x="860.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="860.0" y="597.5" dominant-baseline="central">Артефакты</tspan>
+  </text>
+  <rect x="380" y="670" width="160" height="75" rx="8" ry="8" fill="#b2f2bb" stroke-width="2" class="adaptive-stroke"  />
+  <text x="460.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="460.0" y="707.5" dominant-baseline="central">Типовой код</tspan>
+  </text>
+  <rect x="580" y="670" width="200" height="75" rx="8" ry="8" fill="#ffd8a8" stroke-width="2" class="adaptive-stroke"  />
+  <text x="680.0" font-size="16" text-anchor="middle" class="adaptive-text">
+    <tspan x="680.0" y="687.5" dominant-baseline="central">Локально-</tspan>
+    <tspan x="680.0" y="707.5" dominant-baseline="central">распределенный</tspan>
+    <tspan x="680.0" y="727.5" dominant-baseline="central">кластер</tspan>
+  </text>
+  <path d="M 512.8445824720006 443.5777087639997 L 287.1554175279993 556.4222912360003" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="375.0" font-size="14" text-anchor="end" class="adaptive-text">
+    <tspan x="375.0" y="500.0" dominant-baseline="central">Генерирует</tspan>
+  </text>
+  <path d="M 627.1554175279994 443.5777087639997 L 852.8445824720006 556.4222912360003" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="765.0" font-size="14" text-anchor="start" class="adaptive-text">
+    <tspan x="765.0" y="500.0" dominant-baseline="central">Собирает</tspan>
+  </text>
+  <path d="M 537.3718350004698 447.5559743736493 L 462.62816499953016 662.4440256263507" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="485.0" font-size="14" text-anchor="end" class="adaptive-text">
+    <tspan x="485.0" y="555.0" dominant-baseline="central">Генерирует</tspan>
+  </text>
+  <path d="M 602.6281649995302 447.5559743736493 L 677.3718350004698 662.4440256263507" stroke-width="2" class="adaptive-stroke"  stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+  <text x="655.0" font-size="14" text-anchor="start" class="adaptive-text">
+    <tspan x="655.0" y="555.0" dominant-baseline="central">Оркестрирует</tspan>
+  </text>
+</svg>

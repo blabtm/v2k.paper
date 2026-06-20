@@ -1,0 +1,378 @@
+monorepo-comparison:
+  type: article
+  title: 'Advantages and disadvantages of a monolithic repository: a case study at Google'
+  author:
+    - Jaspan, Ciera
+    - Jorde, Matthew
+    - Knight, Andrea
+  date: 2018
+  page-range: 225-234
+  url:
+    value: https://doi.org/10.1145/3183519.3183550
+    date: 2026-04-14
+  serial-number:
+    doi: 10.1145/3183519.3183550
+    isbn: '9781450356596'
+  parent:
+    type: proceedings
+    title: 'Proceedings of the 40th International Conference on Software Engineering: Software Engineering in Practice'
+    publisher:
+      name: Association for Computing Machinery
+      location: Gothenburg, Sweden
+
+binp:
+  type: article
+  title: Current Dependence of Bunch Dimensions in {VEPP-2000} Collider
+  author:
+    - Rogovsky, Yu. A.
+    - Perevedentsev, E.
+    - Shwartz, D.B.
+  date: 2018
+  page-range: 125-127
+  url:
+    value: http://jacow.org/rupac2018/papers/thcemh04.pdf
+    date: 2026-04-14
+  serial-number:
+    doi: doi:10.18429/JACoW-RUPAC2018-THCEMH04
+    isbn: 978-3-95450-197-7
+  parent:
+    - type: proceedings
+      title: Proc. 26th Russian Particle Accelerator Conference (RUPAC'18), Protvino, Russia, 01-05 October 2018
+      publisher:
+        name: JACoW Publishing
+        location: Geneva, Switzerland
+      issue: 26
+      parent:
+        type: proceedings
+        title: Russian Particle Accelerator Conference
+
+vcas:
+  type: article
+  title: VEPP-2000 Collider Control System
+  author:
+    - Senchenko, A.I.
+    - Berkaev, D.E.
+    - Kasaev, A.S.
+  page-range: 263-267
+  url:
+    value: https://jacow.org/pcapac2012/papers/FRCB04.pdf
+    date: 2026-04-14
+  serial-number:
+    isbn: 978-3-95450-124-3
+  parent:
+    - type: proceedings
+      title: Proc. PCaPAC'12
+      publisher: JACoW Publishing, Geneva, Switzerland
+
+devcontainers-usage:
+  type: article
+  title: 'Using DevContainers to Standardize Student Development Environments: An Experience Report'
+  author:
+    - Valstar, Sander
+    - Griswold, William G.
+    - Porter, Leo
+  date: 2020
+  page-range: 377-383
+  url:
+    value: https://doi.org/10.1145/3341525.3387424
+    date: 2026-04-14
+  serial-number:
+    doi: 10.1145/3341525.3387424
+    isbn: '9781450368742'
+  parent:
+    type: proceedings
+    title: Proceedings of the 2020 ACM Conference on Innovation and Technology in Computer Science Education
+    publisher:
+      name: Association for Computing Machinery
+      location: Trondheim, Norway
+
+gitops:
+  type: article
+  title: 'GitOps: a path to more self-service IT'
+  author: Limoncelli, Thomas A.
+  date: 2018
+  page-range: 38-42
+  url:
+    value: https://doi.org/10.1145/3233241
+    date: 2026-04-14
+  serial-number:
+    doi: 10.1145/3233241
+    issn: 0001-0782
+  parent:
+    type: periodical
+    title: Commun. ACM
+    publisher:
+      name: Association for Computing Machinery
+      location: New York, NY, USA
+    issue: 9
+    volume: 61
+
+iac:
+  type: article
+  title: 'Intelligent Infrastructure as Code: GitOps, Resilience Engineering, and Automation Patterns for Scalable Big Data Platforms'
+  author: Thota, Madhava Rao
+  date: 2021
+  page-range: 741-752
+  url:
+    value: https://www.researchgate.net/publication/400918999_Intelligent_Infrastructure_as_Code_GitOps_Resilience_Engineering_and_Automation_Patterns_for_Scalable_Big_Data_Platforms
+    date: 2026-04-14
+  serial-number:
+    doi: 10.32628/IJSRST2152553
+  parent:
+    type: periodical
+    title: International Journal of Scientific Research in Science and Technology
+    volume: 8
+
+monorepo-google:
+  type: article
+  title: Why Google Stores Billions of Lines of Code in a Single Repository
+  author:
+    - Potvin, Rachel
+    - Levenberg, Josh
+  date: 2016
+  page-range: 78-87
+  url:
+    value: http://dl.acm.org/citation.cfm?id=2854146
+    date: 2026-04-14
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 59
+
+quake:
+  type: article
+  title: 'QuakeFlow: a scalable machine-learning-based earthquake monitoring workflow with cloud computing'
+  author:
+    - Zhu, Weiqiang
+    - Hou, Alvin Brian
+    - Yang, Robert
+  date: 2023
+  page-range: 684-693
+  url:
+    value: https://doi.org/10.1093/gji/ggac355
+    date: 2026-04-14
+  serial-number:
+    doi: 10.1093/gji/ggac355
+    issn: 0956-540X
+  parent:
+    type: periodical
+    title: Geophysical Journal International
+    issue: 1
+    volume: 232
+
+borg:
+  type: article
+  title: Borg, Omega, and Kubernetes
+  author:
+    - Burns, Brendan
+    - Grant, Brian
+    - Oppenheimer, David
+  date: 2016
+  page-range: 70-93
+  url:
+    value: http://queue.acm.org/detail.cfm?id=2898444
+    date: 2026-04-14
+  parent:
+    type: periodical
+    title: ACM Queue
+    volume: 14
+
+mapreduce:
+  type: article
+  title: 'MapReduce: simplified data processing on large clusters'
+  author:
+    - Dean, Jeffrey
+    - Ghemawat, Sanjay
+  date: 2008
+  page-range: 107-113
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    issue: 1
+    volume: 51
+
+dataflow:
+  type: article
+  title: 'The Dataflow Model: A Practical Approach to Balancing Correctness, Latency, and Cost in Massive-Scale, Unbounded, Out-of-Order Data Processing'
+  author:
+    - Akidau, Tyler
+    - Bradshaw, Robert
+    - Chambers, Craig
+  date: 2015
+  page-range: 1792-1803
+  parent:
+    type: periodical
+    title: Proceedings of the VLDB Endowment
+    issue: 12
+    volume: 8
+
+unix:
+  type: book
+  title: The UNIX Programming Environment
+  author:
+    - Kernighan, Brian W.
+    - Pike, Rob
+  date: 1984
+  publisher:
+    name: Prentice-Hall
+    location: Englewood Cliffs, N.J.
+  serial-number:
+    isbn: 0-13-937699-2
+
+cicd:
+  type: book
+  title: 'Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation'
+  author:
+    - Humble, Jez
+    - Farley, David
+  date: 2010
+  publisher: Addison-Wesley Professional
+  serial-number:
+    isbn: '9780321601919'
+
+mochi:
+  type: repository
+  title: Mochi MQTT Server
+  author:
+    - name: The Mochi MQTT Authors
+  publisher: GitHub
+  url:
+    value: https://github.com/mochi-mqtt/server
+    date: 2026-04-14
+
+cue:
+  type: repository
+  title: CUE
+  author:
+    - name: The CUE Authors
+  publisher: GitHub
+  url:
+    value: https://github.com/cue-lang/cue
+    date: 2026-04-14
+
+nomad:
+  type: repository
+  title: Nomad
+  author:
+    - name: HashiCorp, Inc.
+  publisher: GitHub
+  url:
+    value: https://github.com/hashicorp/nomad
+    date: 2026-04-14
+
+cmake:
+  type: repository
+  title: CMake
+  author:
+    - name: Kitware, Inc
+  publisher: GitHub
+  url:
+    value: https://cmake.org/
+    date: 2026-04-14
+
+terraform:
+  type: repository
+  title: Terraform
+  author:
+    - name: HashiCorp, Inc.
+  publisher: GitHub
+  url:
+    value: https://github.com/hashicorp/terraform
+    date: 2026-04-14
+
+json-forms:
+  type: repository
+  title: JSON Forms
+  author:
+    - name: EclipseSource
+  publisher: GitHub
+  url:
+    value: https://github.com/eclipsesource/jsonforms
+    date: 2026-04-14
+
+grafana:
+  type: repository
+  title: Grafana
+  author:
+    - name: Grafana Labs
+  publisher: GitHub
+  url:
+    value: https://github.com/grafana/grafana
+    date: 2026-04-14
+
+docker:
+  type: repository
+  title: Docker
+  author:
+    - name: Docker, Inc.
+  publisher: GitHub
+  url:
+    value: https://github.com/docker
+    date: 2026-04-14
+
+taskfile:
+  type: repository
+  title: Task
+  author:
+    - name: The Task Authors
+  publisher: GitHub
+  url:
+    value: https://github.com/go-task/task
+    date: 2026-04-14
+
+kubernetes:
+  type: repository
+  title: Kubernetes
+  author:
+    - name: Google LLC
+  publisher: GitHub
+  url:
+    value: https://github.com/kubernetes/kubernetes
+    date: 2026-04-14
+
+devcontainers:
+  type: web
+  title: Development Containers Specification
+  publisher: Development Containers Community
+  url:
+    value: https://containers.dev/implementors/spec
+    date: 2026-04-14
+
+obs-as-code:
+  type: web
+  title: Observability as Code
+  publisher: Grafana Labs
+  url:
+    value: https://grafana.com/docs/grafana/latest/as-code/observability-as-code
+    date: 2026-04-14
+
+tailscale:
+  type: web
+  title: What is Tailscale
+  publisher: Tailscale Inc.
+  url:
+    value: https://tailscale.com/docs/concepts/what-is-tailscale
+    date: 2026-04-14
+
+rde-uber:
+  type: post
+  title: "Devpod: Improving Developer Productivity at Uber with Remote Development"
+  author:
+    - Strukčinskas, Matas Antanas
+    - Badem, Serdar
+    - Jokubauskas, Aistis
+  publisher: Uber Technologies Inc.
+  date: 2022-12-13
+  url:
+    value: https://www.uber.com/it/en/blog/devpod-improving-developer-productivity-at-uber
+    date: 2026-04-14
+
+grafana-cern:
+  type: post
+  title: How CERN uses Grafana and Mimir to monitor the world’s largest computer grid
+  author: Jones, Trevor
+  date: 2025-01-03
+  publisher: Grafana Labs
+  url:
+    value: https://grafana.com/blog/how-cern-uses-grafana-and-mimir-to-monitor-the-worlds-largest-computer-grid
+    date: 2026-04-14
